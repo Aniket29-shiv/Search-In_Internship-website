@@ -1,0 +1,317 @@
+* {
+    font-family: var(--font-family);
+}
+.gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient__text2 {
+    background: var(--gradient-text2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Header */
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 6rem 6rem;
+}
+
+.header-title {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.header-title button {
+    margin: 2rem 0;
+    padding: 0.5rem 2rem;
+    /* width: 100%; */
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000;
+    border: #000 solid 1px;
+}
+
+.header-img {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.header-title h1 {
+    font-family: var(--font-family);
+    color: #000;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.header-title p {
+    font-family: var(--font-family);
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 1.5rem;
+}
+
+/* About */
+
+#About {
+    padding: 4rem 10rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0rem;
+}
+
+.about-text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0rem 2rem;
+}
+
+.about-text h1 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.about-text p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 1.5rem;
+}
+
+.about-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Steps */
+.steps {
+    padding: 4rem 10rem;
+}
+.feature {
+    padding: 0 2rem;
+}
+.feature h1 {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+.feature h3 {
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: -0.04em;
+}
+.feature p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 1.5rem;
+}
+
+/* Internships */
+.internship {
+    padding: 4rem 10rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.internships {
+}
+.internships h1 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    padding: 2rem 0;
+}
+.internships p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 25px;
+    border: 1px solid #dedbdb;
+    padding: 1.5rem 2rem;
+    color: #7a0bc0;
+    margin: 0;
+    text-align: center;
+}
+
+.internships a {
+    background-image: linear-gradient(to right, #8e05c2, #8e05c2 50%, #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.internships a:before {
+    content: "";
+    background: #8e05c2;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.internships a:hover {
+    background-position: 0;
+}
+
+.internships a:hover::before {
+    width: 100%;
+}
+
+/* Footer */
+
+.footer {
+    padding: 4rem 10rem;
+    text-align: center;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+}
+.footer h1 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    padding: 2rem 0;
+    color: #fff;
+}
+.copywright {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 2rem;
+    color: #fff;
+}
+.footer p {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 28px;
+    /* margin-top: 2rem; */
+    color: #fff;
+}
+ion-icon {
+    padding: 10px;
+    font-size: 20px;
+    margin: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #7a8aff;
+    background: #fff;
+}
+ion-icon:hover {
+    color: #fff;
+    background: #7a8aff;
+}
+
+/*  */
+/*  */
+/* Mobile View */
+/*  */
+/*  */
+
+@media screen and (max-width: 850px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        padding: 2.5rem;
+        align-items: center;
+        text-align: justify;
+    }
+    .header-img {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-title h1 {
+        text-align: center;
+        margin: auto;
+    }
+
+    .header-title button,
+    .header-title a {
+        margin: 2rem 0;
+        padding: 0.5rem 2rem;
+        width: 100%;
+    }
+
+    #About {
+        padding: 2.5rem;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0rem;
+        text-align: justify;
+    }
+    .about-text h1 {
+        text-align: center;
+        margin: auto;
+    }
+    .about-text {
+        padding: 0%;
+        order: 1;
+    }
+    .about-img {
+        padding: 1rem 0;
+        order: 2;
+    }
+
+    .steps {
+        padding: 2rem 2rem;
+        text-align: center;
+    }
+    .feature {
+        padding: 2rem;
+    }
+
+    .internship {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .footer {
+        padding: 2rem;
+    }
+    ion-icon {
+        margin: 0.5rem;
+    }
+}
