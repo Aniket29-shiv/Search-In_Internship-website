@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Search-In_Internship-website/static/css/main.434b8199.css",
+    "main.js": "/Search-In_Internship-website/static/js/main.ece30e60.js",
+    "static/media/new_skills.jpg": "/Search-In_Internship-website/static/media/new_skills.be916eba97814d2c03bc.jpg",
+    "static/media/learn.jpg": "/Search-In_Internship-website/static/media/learn.16ad47facee9bf482e8e.jpg",
+    "static/media/flexible_time.jpg": "/Search-In_Internship-website/static/media/flexible_time.39d2e32f2dc92da0b2a9.jpg",
+    "static/media/android_illu.jpg": "/Search-In_Internship-website/static/media/android_illu.10415744af63cfffdcf2.jpg",
+    "static/media/new_icon.webp": "/Search-In_Internship-website/static/media/new_icon.0cffc78ea84625c06588.webp",
+    "index.html": "/Search-In_Internship-website/index.html",
+    "main.434b8199.css.map": "/Search-In_Internship-website/static/css/main.434b8199.css.map",
+    "main.ece30e60.js.map": "/Search-In_Internship-website/static/js/main.ece30e60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.434b8199.css",
+    "static/js/main.ece30e60.js"
+  ]
+}
