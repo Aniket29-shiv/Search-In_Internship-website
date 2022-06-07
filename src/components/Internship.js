@@ -6,10 +6,10 @@ const Internship = () => {
             <div className="internships">
                 <h1 className="gradient__text2">Current Internship Opportunities</h1>
                 <p>
-                    <a href="#">Web Development</a>
+                    <a href="https://forms.gle/HjtTgQArXUtcn5RT6">Web Development</a>
                 </p>
                 <p>
-                    <a href="#">Android Development</a>
+                    <a href="https://forms.gle/HjtTgQArXUtcn5RT6">Android Development</a>
                 </p>
                 <p>
                     <a href="#">Social Media Marketing</a>
